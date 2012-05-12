@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+<script src="http://maps.google.com/maps/api/js?sensor=false"> type="text/javascript"></script>
+<script type="text/javascript">
+ 
+var map = null;
+var geocoder = null;
+ 
+/*initialization start*/
+map = new GMap2(document.getElementById("g_map"));
+map.addControl(new GLargeMapControl());
+map.addControl(new GMapTypeControl());
+ 
+/*initialization end*/
+geocoder = new GClientGeocoder();
+geocoder.getLocations("51 Warbreck Moor, Aintree, Liverpool L9 4RW", setViewPoint); /* get position according to address. you can use any valid address here */
+ 
+function setViewPoint(response)
+{
+ 
+   if (!response || response.Status.code != 200) {
+      alert("address not found."); /* for invalid address */
+      response=null;
+   }
+   else {
+      place = response.Placemark[0];
+      point = new GLatLng(place.Point.coordinates[1],place.Point.coordinates[0]);
+      map.setCenter(point, 16);
+      var markerg = new GMarker(point);
+      map.addOverlay(markerg); /* for the marker on map */</pre>
+      GEvent.addListener(markerg, "mouseover", function() {
+         markerg.openInfoWindowHtml('This is a test information') ;
+ 
+      });
+ 
+   }
+}
+</script>
+
+
+
+</head>
+<body>
+<div id="g_map" style="width:240px; height:140px">
+    Hello
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="Taiko, Taiko Drums, Drums" />
+  <meta name="description" content="Eden Aoba Taiko" />
+  <meta name="author" content="Chris Mathrusse" />
+  <!-- Start of StyleSheet Definitions -->
+  <link rel="stylesheet" type="text/css" href="css/master.css" />
+  <!-- End of StyleSheet Definitions -->
+  <title>Eden Aoba Taiko</title>
+
+  <script language="JavaScript" src="js/master.js">
+  </script>
+
+</head>
+
+<body>
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-2"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <br/>
+        <h2>
+          <span>15th Anniversary Performance</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+
+          <div class="center-content-left-upper-text">
+            <p>
+              <span>It has been a 15 years since I started
+                teaching taiko, and 5 years since the 10 year
+                anniversary concert. It went really well and we had
+                great fun. Everyone worked hard and two groups from
+                Japan made it an even greater event.</span>
+              </p>
+              <p>  
+              <span>This year, our 15th year conincides with the
+                one year anniversary of Earthquake/Tsunami disaster in
+                Japan. There are still lot of issues faced by the people
+                victimized by the disaster.</span>
+            </p>
+          </div>
+        </div>
+
+      </div>     
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+</body>
+</html>

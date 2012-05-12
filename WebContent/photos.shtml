@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <meta name="keywords" content="Taiko, Taiko Drums, Drums" />
+  <meta name="description" content="Eden Aoba Taiko" />
+  <meta name="author" content="Chris Mathrusse" />
+  
+  <!-- Start of StyleSheet Definitions -->
+  <link rel="stylesheet" type="text/css" href="css/master.css" />
+  <link rel="stylesheet" href="css/slimbox.css" type="text/css" media="screen" />  
+  <!-- End of StyleSheet Definitions -->
+  
+  <title>Eden Aoba Taiko</title>
+
+  <script language="JavaScript" src="js/master.js"></script>
+  <script type="text/javascript" src="js/mootools.js"></script>
+  <script type="text/javascript" src="js/slimbox.js"></script>
+  <script type="text/javascript" src="js/autoactivation.js"></script>
+
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-2"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>Photo Gallery</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+
+          <div class="center-content-left-upper-text">
+            <p>
+              <b><strong><span>Asahikawa Japan - 2006</span></strong></b>
+            </p>
+            <p>
+              <span>
+                <a href="gallery/japan/IMG001.jpg" rel="lightbox-japan" title="Bayashi"><img src="gallery/japan/thumbnails/IMG001.jpg" alt="Bayashi" /></a>
+                <a href="gallery/japan/IMG002.jpg" rel="lightbox-japan" title="Zoku"><img src="gallery/japan/thumbnails/IMG002.jpg" alt="Zoku" /></a>
+                <a href="gallery/japan/IMG003.jpg" rel="lightbox-japan" title="Fujin Raijin"><img src="gallery/japan/thumbnails/IMG003.jpg" alt="Fujin Raijin" /></a>
+                <a href="gallery/japan/IMG004.jpg" rel="lightbox-japan" title="Soran Bushi 1"><img src="gallery/japan/thumbnails/IMG004.jpg" alt="Soran Bushi 1" /></a>
+                <a href="gallery/japan/IMG005.jpg" rel="lightbox-japan" title="Soran Bushi 2"><img src="gallery/japan/thumbnails/IMG005.jpg" alt="Soran Bushi 2" /></a>
+              </span>
+            </p>
+            <br/>
+            <p>
+              <b><strong><span>Oakland Obon Festival - 2006</span></strong></b>
+            </p>
+            <p>
+              <span>
+                <a href="gallery/oakland-obon/img002.jpg" rel="lightbox-obon" title="Fujin Raijin"><img src="gallery/oakland-obon/thumbnails/img002.jpg" alt="Fujin Raijin" /></a>
+                <a href="gallery/oakland-obon/img003.jpg" rel="lightbox-obon" title="Preparation"><img src="gallery/oakland-obon/thumbnails/img003.jpg" alt="Preparation" /></a>
+                <a href="gallery/oakland-obon/img004.jpg" rel="lightbox-obon" title="Bayashi"><img src="gallery/oakland-obon/thumbnails/img004.jpg" alt="Bayashi" /></a>
+                <a href="gallery/oakland-obon/img005.jpg" rel="lightbox-obon" title="Thunder"><img src="gallery/oakland-obon/thumbnails/img005.jpg" alt="Thunder" /></a>
+                <a href="gallery/oakland-obon/img006.jpg" rel="lightbox-obon" title="Fujin Raijin"><img src="gallery/oakland-obon/thumbnails/img006.jpg" alt="Fujin Raijin" /></a>
+                <a href="gallery/oakland-obon/img007.jpg" rel="lightbox-obon" title="Good Friends"><img src="gallery/oakland-obon/thumbnails/img007.jpg" alt="Good Friends" /></a>
+                <a href="gallery/oakland-obon/img009.jpg" rel="lightbox-obon" title="Da"><img src="gallery/oakland-obon/thumbnails/img009.jpg" alt="Da" /></a>
+              </span>
+            </p>
+            <br/>
+          </div>
+        </div>
+
+      </div>     
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="Taiko, Taiko Drums, Drums" />
+  <meta name="description" content="Eden Aoba Taiko" />
+  <meta name="author" content="Chris Mathrusse" />
+  <!-- Start of StyleSheet Definitions -->
+  <link rel="stylesheet" type="text/css" href="css/master.css" />
+  <!-- End of StyleSheet Definitions -->
+  <title>Eden Aoba Taiko</title>
+
+  <script language="JavaScript" src="js/master.js">
+  </script>
+
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-2"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>Contact Us</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+
+          <div class="center-content-left-upper-text">
+            <p>
+              <span>                
+                    Masa Fukuizumi
+              </span>
+            </p>
+            <p>
+                <span>
+                  Eden Aoba Taiko
+                </span>
+            </p>
+            <p> P.O.Box 3315 Hayward, CA 9454</p>
+            <p>email: <a href="mailto:masaf@pop3.concentric.net"><span class="email">masaf@pop3.concentric.net</span></a></p>
+            <br/>
+          </div>
+        </div>
+
+      </div>     
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="Taiko, Taiko Drums, Drums" />
+  <meta name="description" content="Eden Aoba Taiko" />
+  <meta name="author" content="Chris Mathrusse" />
+
+  <!-- Start of StyleSheet Definitions -->
+  <link rel="stylesheet" type="text/css" href="css/master.css" />
+  <link rel="stylesheet" href="css/slimbox.css" type="text/css" media="screen" />  
+  <!-- End of StyleSheet Definitions -->
+
+  <title>Eden Aoba Taiko</title>
+
+  <script language="JavaScript" src="js/master.js"></script>
+  <script type="text/javascript" src="js/mootools.js"></script>
+  <script type="text/javascript" src="js/slimbox.js"></script>
+  <script type="text/javascript" src="js/autoactivation.js"></script>
+
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-2"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>Image Gallery</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+          <div class="eden-image"></div>
+
+          <div class="center-content-left-upper-text">
+            <p>
+              <b><strong><span>Photo Gallery</span></strong></b>
+            </p>
+            <p>
+              <span>Photos of our group span multiple years and include many individuals. Some of which are still with us
+              and some that have departed. Our group is very diverse and includes people for multiple cultural backgrounds, countries and ages. 
+              We have had members as old as 6 while others have been as young as 80 or more.</span>
+            </p>
+            <p>
+              <span>Our performances include such places as elementary schools, libraries, cultural events, festivals and even private weddings
+              and anniversaries. </span>    
+            </p>
+            <a href="photos.shtml">Photo Gallery...</a>
+            <br></br>
+          </div>
+        </div>
+
+               
+        <div class="center-content-left-lower">
+            <p>
+              <b><strong><span>Japan 2006</span></strong></b>
+            </p>
+            <p>
+              <span>
+                <a href="gallery/japan/IMG001.jpg" rel="lightbox-japan" title="Bayashi"><img src="gallery/japan/thumbnails/IMG001.jpg" alt="Bayashi" /></a>
+                <a href="gallery/japan/IMG002.jpg" rel="lightbox-japan" title="Zoku"><img src="gallery/japan/thumbnails/IMG002.jpg" alt="Zoku" /></a>
+                <a href="gallery/japan/IMG003.jpg" rel="lightbox-japan" title="Fujin Raijin"><img src="gallery/japan/thumbnails/IMG003.jpg" alt="Fujin Raijin" /></a>
+                <a href="gallery/japan/IMG004.jpg" rel="lightbox-japan" title="Soran Bushi 1"><img src="gallery/japan/thumbnails/IMG004.jpg" alt="Soran Bushi 1" /></a>
+                <a href="gallery/japan/IMG005.jpg" rel="lightbox-japan" title="Soran Bushi 2"><img src="gallery/japan/thumbnails/IMG005.jpg" alt="Soran Bushi 2" /></a>
+              </span>
+            </p>
+        </div>
+      </div>
+
+      <div class="main-content-right">
+        <h2>
+          <span>Video Gallery</span>
+        </h2>
+        <p>
+          <span>
+          Coming soon.
+          <br/>
+          <a href="videos.shtml">Read more....</a>
+          </span>
+        </p>
+        <br/>
+        <p></p>
+      </div>
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+</body>
+</html>

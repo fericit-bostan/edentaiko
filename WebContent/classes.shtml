@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="Taiko, Taiko Drums, Drums" />
+  <meta name="description" content="Eden Aoba Taiko" />
+  <meta name="author" content="Chris Mathrusse" />
+  <!-- Start of StyleSheet Definitions -->
+  <link rel="stylesheet" type="text/css" href="css/master.css" />
+  <!-- End of StyleSheet Definitions -->
+  <title>Eden Aoba Taiko</title>
+
+  <script language="JavaScript" src="js/master.js">
+  </script>
+
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-2"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>Classes For All Ages</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+          <br/>
+          <p>
+              <span>
+              The focus of the classes is to have a fun drumming with others.
+              Also, drumming is a self-expression among others.
+              <br/>
+              Classes are once per week for 10 weeks.
+              Fee for a session is $30.00. Bring your own bachi (sticks) or I have some for sale. 
+              If Interested, you are welcome to observe the classes.
+              </span> 
+          </p>
+        </div>
+        <div class="center-content-left-lower">
+          <h2>
+            <span>Next Session starts at week of July 2 tentatively, 2012</span>
+          </h2>
+          <br/>
+          <div class="center-content-left-upper">
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Beginners - Children and Adults
+              </div>
+              <div class="cal-cell">
+                  Monday 6:00 pm ~ 6:50 pm
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Experienced I
+              </div>
+              <div class="cal-cell">
+                  Tuesday 6:00 pm ~ 7:30 pm
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Experienced II
+              </div>
+              <div class="cal-cell">
+                  Wednesday 6:00 pm ~ 7:30 pm
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Experienced III
+              </div>
+              <div class="cal-cell">
+                  Friday 6:00 pm ~ 7:30 pm
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>     
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+</body>
+</html>
