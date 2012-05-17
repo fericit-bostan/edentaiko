@@ -3,16 +3,16 @@
   <div class="nav-holder">
     <div class="nav-box">
       <div class="menu" 
-        onmouseover="document.all.HomeSubMenu.style.display = 'block'" 
-        onmouseout="document.all.HomeSubMenu.style.display = 'none'">
+        onmouseover="setSubMenuDisplayType('homeSubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('homeSubMenu', 'block')">
         <div class="menuHead"><a href="index.shtml">Home</a></div>
       </div>
     </div>
 
     <div class="nav-box">
       <div class="menu" 
-        onmouseover="document.all.gallerySubMenu.style.display = 'block'" 
-        onmouseout="document.all.gallerySubMenu.style.display = 'none'">
+        onmouseover="setSubMenuDisplayType('gallerySubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('gallerySubMenu', 'none')">
         <div class="menuHead"><a href="gallery.shtml">Gallery</a></div>
         <div id="gallerySubMenu" class="subMenu">
           <br />
@@ -27,8 +27,8 @@
 
     <div class="nav-box">
       <div class="menu" 
-        onmouseover="document.all.calendarSubMenu.style.display = 'block'" 
-        onmouseout="document.all.calendarSubMenu.style.display = 'none'">
+        onmouseover="setSubMenuDisplayType('calendarSubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('calendarSubMenu', 'none')">
         <div class="menuHead"><a href="calendar.shtml">Calendar</a></div>
         <div id="calendarSubMenu" class="subMenu">
           <br />
@@ -42,8 +42,8 @@
 
     <div class="nav-box">
       <div class="menu" 
-        onmouseover="document.all.aboutSubMenu.style.display = 'block'" 
-        onmouseout="document.all.aboutSubMenu.style.display = 'none'">
+        onmouseover="setSubMenuDisplayType('aboutSubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('aboutSubMenu', 'none')">
         <div class="menuHead"><a href="about-us.shtml">About Us</a></div>
         <div id="aboutSubMenu" class="subMenu">
           <br />

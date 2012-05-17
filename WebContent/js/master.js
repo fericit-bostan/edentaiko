@@ -140,3 +140,7 @@ function highlightI(pObjRequest,pElementId) {
     }
 }
 
+function setSubMenuDisplayType(pElementId, displayType) {
+	document.getElementById(pElementId).style.display = displayType;
+}
+
