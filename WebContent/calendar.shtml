@@ -12,6 +12,8 @@
   <!-- End of StyleSheet Definitions -->
   <title>Eden Aoba Taiko</title>
 
+  <script language="JavaScript" src="js/master.js">
+  </script>
   <script language="JavaScript">
   var tc = false;
   try {
@@ -100,6 +102,7 @@
       }
   }
   </script>
+  
   
 </head>
 
