@@ -65,7 +65,7 @@
             </div>
             <div class="cal-row">
               <div class="cal-cell">
-                  Valverde Peruvian Dance
+                  <a href="http://www.valverdedance.com/" target="_blank">Valverde Peruvian Dance</a>
               </div>
               <div class="cal-cell">
                   San Francisco
@@ -73,7 +73,7 @@
             </div>
             <div class="cal-row">
               <div class="cal-cell">
-                  Chhandam Indian Youth Dance
+                  <a href="http://www.kathak.org/altruesite/php/section.php?id=9068" target="_blank">Chhandam Indian Youth Company</a>
               </div>
               <div class="cal-cell">
                   San Francisco
@@ -81,7 +81,7 @@
             </div>
             <div class="cal-row">
               <div class="cal-cell">
-                  Jubilee American Dance
+                  <a href="http://www.jubileedance.com/" target="_blank">Jubilee American Dance</a>
               </div>
               <div class="cal-cell">
                   Berkeley
@@ -98,7 +98,7 @@
 
           </div>
           <br/>
-          <p><span>Concert ticket will be going on sale as of June 1 at: <a href="http://sa1.seatadvisor.com/sabo/servlets/EventSearch?presenter=SANRAMON#">Seat Advisor</a></span>
+          <p><span>Concert ticket will be going on sale as of June 1 at: <a href="http://sa1.seatadvisor.com/sabo/servlets/EventSearch?presenter=SANRAMON#" target="_blank">Seat Advisor</a></span>
           </p>            
           </div>
         </div>
