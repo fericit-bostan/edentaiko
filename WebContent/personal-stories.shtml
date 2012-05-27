@@ -1,15 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="keywords" content="Taiko, Taiko Drums, Drums" />
-  <meta name="description" content="Eden Aoba Taiko" />
-  <meta name="author" content="Chris Mathrusse" />
-  <!-- Start of StyleSheet Definitions -->
-  <link rel="stylesheet" type="text/css" href="css/master.css" />
-  <!-- End of StyleSheet Definitions -->
-  <title>Eden Aoba Taiko</title>
+  <!--#include virtual="include/meta.shtml" -->
 
   <script language="JavaScript" src="js/master.js">
   </script>
