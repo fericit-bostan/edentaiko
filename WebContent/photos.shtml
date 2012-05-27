@@ -42,34 +42,11 @@
         <div class="center-content-left-upper">
 
           <div class="center-content-left-upper-text">
-            <p>
-              <b><strong><span>Asahikawa Japan - 2006</span></strong></b>
-            </p>
-            <p>
-              <span>
-                <a href="gallery/japan/IMG001.jpg" rel="lightbox-japan" title="Bayashi"><img src="gallery/japan/thumbnails/IMG001.jpg" alt="Bayashi" /></a>
-                <a href="gallery/japan/IMG002.jpg" rel="lightbox-japan" title="Zoku"><img src="gallery/japan/thumbnails/IMG002.jpg" alt="Zoku" /></a>
-                <a href="gallery/japan/IMG003.jpg" rel="lightbox-japan" title="Fujin Raijin"><img src="gallery/japan/thumbnails/IMG003.jpg" alt="Fujin Raijin" /></a>
-                <a href="gallery/japan/IMG004.jpg" rel="lightbox-japan" title="Soran Bushi 1"><img src="gallery/japan/thumbnails/IMG004.jpg" alt="Soran Bushi 1" /></a>
-                <a href="gallery/japan/IMG005.jpg" rel="lightbox-japan" title="Soran Bushi 2"><img src="gallery/japan/thumbnails/IMG005.jpg" alt="Soran Bushi 2" /></a>
-              </span>
-            </p>
+            <!--#include virtual="gallery/japan/photos.shtml" -->          
             <br/>
-            <p>
-              <b><strong><span>Oakland Obon Festival - 2006</span></strong></b>
-            </p>
-            <p>
-              <span>
-                <a href="gallery/oakland-obon/img002.jpg" rel="lightbox-obon" title="Fujin Raijin"><img src="gallery/oakland-obon/thumbnails/img002.jpg" alt="Fujin Raijin" /></a>
-                <a href="gallery/oakland-obon/img003.jpg" rel="lightbox-obon" title="Preparation"><img src="gallery/oakland-obon/thumbnails/img003.jpg" alt="Preparation" /></a>
-                <a href="gallery/oakland-obon/img004.jpg" rel="lightbox-obon" title="Bayashi"><img src="gallery/oakland-obon/thumbnails/img004.jpg" alt="Bayashi" /></a>
-                <a href="gallery/oakland-obon/img005.jpg" rel="lightbox-obon" title="Thunder"><img src="gallery/oakland-obon/thumbnails/img005.jpg" alt="Thunder" /></a>
-                <a href="gallery/oakland-obon/img006.jpg" rel="lightbox-obon" title="Fujin Raijin"><img src="gallery/oakland-obon/thumbnails/img006.jpg" alt="Fujin Raijin" /></a>
-                <a href="gallery/oakland-obon/img007.jpg" rel="lightbox-obon" title="Good Friends"><img src="gallery/oakland-obon/thumbnails/img007.jpg" alt="Good Friends" /></a>
-                <a href="gallery/oakland-obon/img009.jpg" rel="lightbox-obon" title="Da"><img src="gallery/oakland-obon/thumbnails/img009.jpg" alt="Da" /></a>
-              </span>
-            </p>
+            <!--#include virtual="gallery/oakland-obon/photos.shtml" -->          
             <br/>
+            <!--#include virtual="gallery/fremont-lib/photos.shtml" -->          
           </div>
         </div>
 
@@ -78,5 +55,6 @@
 
     <!--#include virtual="include/right-main-content.shtml" -->
   </div>
+    <!--#include virtual="include/copyright.shtml" -->  
 </body>
 </html>

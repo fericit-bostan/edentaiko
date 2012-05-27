@@ -108,5 +108,6 @@
 
     <!--#include virtual="include/right-main-content.shtml" -->
   </div>
+    <!--#include virtual="include/copyright.shtml" -->  
 </body>
 </html>
