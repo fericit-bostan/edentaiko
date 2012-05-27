@@ -73,6 +73,18 @@ b.title {
     background-repeat-y: no-repeat;
 }
 
+.header-3 {
+    left: 0;
+    top: 2.5em;
+    left: 0;
+    height: 16em;
+    background-image: url(images/header-3.jpg);
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat-y: no-repeat;
+}
+
 /*--------------- NAVIGATION ---------------------*/
 .main-nav {
     display: table;
