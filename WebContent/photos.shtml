@@ -48,6 +48,8 @@
             <br/>
             <!--#include virtual="gallery/fremont-lib/photos.shtml" -->          
             <br/>
+            <!--#include virtual="gallery/art-wind/photos.shtml" -->          
+            <br/>
             <!--#include virtual="gallery/grp-mem/photos.shtml" -->          
           </div>
         </div>
