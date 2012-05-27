@@ -47,6 +47,8 @@
             <!--#include virtual="gallery/oakland-obon/photos.shtml" -->          
             <br/>
             <!--#include virtual="gallery/fremont-lib/photos.shtml" -->          
+            <br/>
+            <!--#include virtual="gallery/grp-mem/photos.shtml" -->          
           </div>
         </div>
 
