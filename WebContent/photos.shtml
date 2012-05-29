@@ -33,6 +33,8 @@
         <div class="center-content-left-upper">
 
           <div class="center-content-left-upper-text">
+            <!--#include virtual="gallery/art-wind-12/photos.shtml" -->
+            <br/>          
             <!--#include virtual="gallery/japan/photos.shtml" -->          
             <br/>
             <!--#include virtual="gallery/oakland-obon/photos.shtml" -->          

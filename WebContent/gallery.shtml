@@ -2,6 +2,8 @@
 <html>
 <head>
   <!--#include virtual="include/meta.shtml" -->
+  <link rel="stylesheet" href="css/slimbox.css" type="text/css" media="screen" />  
+
   <script language="JavaScript" src="js/master.js"></script>
   <script type="text/javascript" src="js/mootools.js"></script>
   <script type="text/javascript" src="js/slimbox.js"></script>
@@ -51,7 +53,7 @@
                
         <div class="center-content-left-lower">
             <br/>
-            <!--#include virtual="gallery/art-wind/photos.shtml" -->          
+            <!--#include virtual="gallery/art-wind-12/photos.shtml" -->
         </div>
       </div>
 
