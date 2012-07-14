@@ -1,4 +1,0 @@
-edentaiko
-=========
-
-Eden Aoba Taiko
