@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!--#include virtual="include/meta.shtml" -->
+
+  <script language="JavaScript" src="js/master.js" type="text/javascript">
+  </script>
+
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-4"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>Classes For All Ages</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+          <br/>
+          <p>
+              <span>
+              The focus of the classes is to have a fun drumming with others.
+              Also, drumming is a self-expression among others.
+              <br/>
+              Classes are once per week for 10 weeks.
+              Fee for a session is $30.00. Bring your own bachi (sticks) or I have some for sale. 
+              If Interested, you are welcome to observe the classes.
+              </span> 
+          </p>
+        </div>
+        <br/>
+        <div class="center-content-left-lower">
+          <h2>
+            <span>Next Session starts at week of July 9 tentatively, 2012</span>
+          </h2>
+          <br/>
+          <div class="center-content-left-lower">
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Beginners - Children and Adults
+              </div>
+              <div class="cal-cell">
+                  Monday 6:00 pm ~ 6:50 pm
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Experienced I
+              </div>
+              <div class="cal-cell">
+                  Tuesday 6:00 pm ~ 7:30 pm
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Experienced II
+              </div>
+              <div class="cal-cell">
+                  Wednesday 6:00 pm ~ 7:30 pm
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  Experienced III
+              </div>
+              <div class="cal-cell">
+                  Friday 6:00 pm ~ 7:30 pm
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br/><br/>
+        <h2>
+          <span>Practice Location</span>
+        </h2>
+            <p>
+              <span>                
+                    Eden Japanese Community Center
+              </span>
+            </p>
+            <p>710 Elgin Street, San Leandro, CA 94580</p>
+            <p>Map: <a href="http://maps.google.com/maps?q=710+Elgin+Street,+San+Leandro,+CA+94580&hl=en&sll=37.0625,-95.677068&sspn=56.59387,113.818359&hnear=710+Elgin+St,+San+Lorenzo,+California+94580&t=m&z=17"><span>Eden Japanese Community Center</span></a></p>
+            <br/>
+        </div>
+        
+      </div>     
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+    <!--#include virtual="include/copyright.shtml" -->  
+    <!--#include virtual="include/about-counter.shtml" -->  
+</body>
+</html>

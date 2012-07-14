@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!--#include virtual="include/meta.shtml" -->
+
+  <script language="JavaScript" src="js/master.js" type="text/javascript">
+  </script>
+
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-4"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>Contact Us</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+
+          <div class="center-content-left-upper-text">
+            <p>
+              <span>                
+                    Masa Fukuizumi
+              </span>
+            </p>
+            <p>
+                <span>
+                  Eden Aoba Taiko
+                </span>
+            </p>
+            <p> P.O.Box 3315 Hayward, CA 94540</p>
+            <p>email: <a href="mailto:info@edentaiko.com"><span class="email">info@edentaiko.com</span></a></p>
+            <br/>
+          </div>          
+        </div>
+        <h2>
+          <span>Practice Location</span>
+        </h2>
+
+        <div class="center-content-left-lower">
+
+          <div class="center-content-left-lower-text">
+            <p>
+              <span>                
+                    Eden Japanese Community Center
+              </span>
+            </p>
+            <p>710 Elgin Street, San Leandro, CA 94580</p>
+            <p>Map: <a href="http://maps.google.com/maps?q=710+Elgin+Street,+San+Leandro,+CA+94580&hl=en&sll=37.0625,-95.677068&sspn=56.59387,113.818359&hnear=710+Elgin+St,+San+Lorenzo,+California+94580&t=m&z=17"><span>Eden Japanese Community Center</span></a></p>
+            <br/>
+          </div>
+        </div>
+      </div>     
+      
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+    <!--#include virtual="include/copyright.shtml" -->  
+    <!--#include virtual="include/about-counter.shtml" -->  
+</body>
+</html>

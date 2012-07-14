@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!--#include virtual="include/meta.shtml" -->
+
+  <script language="JavaScript" src="js/master.js" type="text/javascript">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+  var tc = false;
+  try {
+      tc = true;
+  } catch(f) { }
+
+  var objRequestError = 'XML HTTP Request: OK';
+
+  function getRequestObject() {
+      var objRequest = null;
+      if (window.ActiveXObject) {
+          if (tc) {
+              try {
+                  objRequest = new ActiveXObject('Msxml2.XMLHTTP');
+              }
+              catch(e) {
+                  try {
+                      objRequest = new ActiveXObject('Microsoft.XMLHTTP');
+                  }
+                  catch(f) { } 
+              }
+          } else {
+              objRequest = new ActiveXObject('Microsoft.XMLHTTP');
+          }
+      } else if (window.XMLHttpRequest) {
+          objRequest = new XMLHttpRequest();
+      }
+      return objRequest;
+  }
+
+  function getFile(pUrl, pElementId) {
+      var objRequest = getRequestObject();
+
+      if (typeof(objRequest)=='object') {
+          if (objRequest.readyState>=0) {
+              objRequest.onreadystatechange = function() { makeTable(objRequest,pElementId); };
+              objRequest.open('GET', pUrl, true);
+              objRequest.send(null);
+          }else{
+              objRequestError = 'XML HTTP Request Object Unavailable';
+              document.getElementById(pElementId).innerHTML = objRequestError;
+              return false;
+          } 
+      }else{
+          objRequestError = 'XML HTTP Request Object Not Supported';
+          document.getElementById(pElementId).innerHTML = objRequestError;
+          return false;
+      }
+  }
+
+
+  // functions to handle asynchronous calls
+  function makeTable(pObjRequest,pElementId) {
+      if (pObjRequest.readyState==4) { 
+          if (pObjRequest.status==200) { 
+              var tmpArr=pObjRequest.responseText.split('\n');
+
+              var tmp;
+              var date, location, event, time, map;
+              var txt;
+              var out= '<div class="center-content-left-upper">';
+              for ( var idx = 0 ; idx < tmpArr.length ; idx++ ) {
+                  tmp = tmpArr[idx].split(',');
+                  
+                  date = tmp[0];
+                  location = tmp[1];
+                  event = tmp[2];
+                  time = tmp[3];
+                  map = tmp[4];
+                  
+                  out += '<div class="cal-row">'; 
+                  out += '<div class="cal-cell">' + date + '<\/div>';
+                  if(map.length == 0) {
+                      out += '<div class="cal-cell">' + location + '<\/div>';
+                  }
+                  else {
+                    out += '<div class="cal-cell"><a href="' + map + "\" target=\"_blank\">" + location + '<\/a><\/div>';
+                  }
+                  out += '<div class="cal-cell">' + event + '<\/div>';
+                  out += '<div class="cal-cell">' + time + '<\/div>';
+                  out += '<\/div>'; 
+              }
+              out += '<\/div>';
+              document.getElementById(pElementId).innerHTML=out;
+          }
+      }
+  }
+  </script>
+  
+  
+</head>
+
+<body onload="getFile('include/calendar-2012.csv','calendar-table');">
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-2"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>2012 Calendar of Events</span>
+        </h2>
+        
+        <span id="calendar-table"></span>
+
+      </div>  
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+    <!--#include virtual="include/copyright.shtml" -->  
+    <!--#include virtual="include/calendar-counter.shtml" -->  
+</body>
+</html>

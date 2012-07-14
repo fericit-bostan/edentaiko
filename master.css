@@ -1,0 +1,407 @@
+.title { 
+    display: table;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+.title-content { 
+    display: table-cell;
+    margin-left: 0;
+    margin-top: 0;
+    width: 60%;
+}
+
+b.title {
+    position:relative;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #E8D6B4;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    line-height: 1;
+    text-align: left;
+    border: 0px solid #000000;
+}
+
+.eden-logo {
+    display: table-cell;
+    position:relative;
+    left: 1em;
+    height: 42px;
+    width: 15px;
+    background-image: url(resources/eden-logo.jpg);
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: no-repeat;
+}
+
+.left-pad {
+    display: table-cell;
+    top: 0;
+    left: 0em;
+    width: 15%;
+}
+
+.right-pad {
+    display: table-cell;
+    width: 15%;
+}
+
+.header-img {
+    left: 0;
+    top: 2.5em;
+    left: 0;
+    height: 16em;
+    background-image: url(resources/soran%2dbushi.jpg);
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat-y: no-repeat;
+}
+
+.header-img1 {
+    left: 0;
+    top: 2.5em;
+    left: 0;
+    height: 16em;
+    background-image: url(resources/header6.jpg);
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat-y: no-repeat;
+}
+
+.nav-holder {
+    display: inline-block;
+    width: 1200px;
+    margin: 0 0 0 0;
+    float: right;
+}
+
+.nav-box {
+    float: left;
+    height: 19px;
+    width: 150px;;
+    opacity: 100;
+    color: #FFFFFF;
+    font-size: 10pt;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    line-height: 1;
+    text-align: center;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-top: 0px solid #000000;
+    border-bottom: 0px solid #000000;
+}
+
+a.nav {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.nav-selected:hover {
+    color: #FF6600;
+    text-decoration: underline;
+}
+
+a.nav:hover {
+    color: #FF6600;
+    font-size: 10pt;
+    text-decoration: underline;
+}
+
+.nav-box:hover {
+    background-attachment: scroll;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: opx solid #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+}
+
+/*------------------*/
+.menuHead { 
+    color: #FFFFFF;
+
+    background-color: #000000;
+
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    font-style: italic;
+    text-decoration: none;    
+    text-shadow: transparent 0px 0px 5px;    
+}
+.menuHead:hover {
+    color: #FF6600;
+}
+.subMenu { 
+    position: relative;
+    background-color: #000000; 
+    width: 150px; 
+    font-size: 12px;
+    display: none;
+    z-index: 100; 
+}
+
+/*------------------*/
+
+
+.main-content {
+    display: table;
+    width: 100%;
+}
+
+.left-content {
+    display: table-cell;
+    top: 0;
+    left: 0em;
+    width: 15%;
+    height: 30em;
+}
+
+.right-content {
+    display: table-cell;
+    width: 15%;
+    height: 30em;
+}
+
+.center-content {
+    display: table-cell;
+    width: 60%;
+    height: 30em;
+}
+
+.main-content-left {
+    display: table-cell;
+    left: 0em;
+    width: 60%;
+    height: 35em;
+    visibility: visible;
+    cursor: default;
+    clear: none;
+    background-image: none;
+    background-color: transparent;
+    background-attachment: scroll;
+    opacity: 100;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #9F8767;
+    font-size: 10pt;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1;
+    text-align: left;
+    text-indent: 0;
+    border: 0px solid #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content-left-upper {
+    display: table;
+    left: 0em;
+    width: 100%;
+    height: 8em;
+}
+
+.main-content-left-upper-text {
+    display: table-cell;
+    height: 10em;
+    padding: 15px 0px 0px 15px;
+}
+
+.eden-image {
+    display: table-cell;
+    left: 0em;
+    height: 10em;
+    width: 8em;
+    background-image: url(resources/eden-small.jpg);
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: no-repeat;
+    padding: 2em 0em 0em 0em;    
+}
+
+.main-content-left-lower {
+    display: table;
+    left: 0em;
+    width: 100%;
+    height: 8em;
+}
+
+.main-content-left-lower-text {
+    display: table-cell;
+    height: 10em;
+    padding: 15px 0px 0px 15px;
+}
+
+.main-content-right {
+    display: table-cell;
+    padding: 20px 0px 0px 20px;
+
+    height: 35em;
+    width: 17em;
+    background-color: transparent;
+    opacity: 100;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #9F8767;
+    font-size: 10pt;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1;
+    text-align: left;
+    text-indent: 0;
+    border-width: 0em;
+    border-style: solid;
+    border-color: #000000;
+    text-indent: 0;
+    border-width: 0em;
+}
+
+body {
+    background-image: url(resources/background.jpg);
+}
+
+/*
+.menu a {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+} 
+*/
+a {
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    font-style: italic;
+    color: #FFFFFF;
+    text-decoration: none;    
+    text-shadow: transparent 0px 0px 5px;    
+}
+
+a:hover {
+    color: #FF6600;
+    text-decoration: underline;    
+}
+
+p {
+    visibility: visible;
+    cursor: default;
+    clear: none;
+    background-image: none;
+    background-color: transparent;
+    background-attachment: scroll;
+    opacity: 100;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1.9;
+    text-indent: 0;
+    border: 0px solid #000000;
+    margin: 0
+}
+
+b {
+    font-weight: bold;
+    font-size: 2em;
+    color: #E8D6B4;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    line-height: 1;
+    text-align: left;
+    text-indent: 0;
+    border: 0px solid #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-attachment: scroll;
+    opacity: 100;
+    font-family: Georgia, sans-serif;
+    font-size: 24pt;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1;
+    text-indent: 0;
+    background-color: transparent;
+    float: left;
+    clear: none;
+    color: #E8D6B4;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    border: 0px solid #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-image: url(resources/img3.gif);
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
+    background-position: 0% 100%;
+    background-position-x: 0%;
+    background-position-y: 100%;
+    background-color: transparent;
+    background-attachment: scroll;
+    opacity: 100;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #E8D6B4;
+    font-size: 2em;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1;
+    text-align: left;
+    text-indent: 0;
+    border: 0px solid #000000;
+    margin: 0;
+    padding: 0px 0px 5px 0px;
+}
+
+h3 {
+    background-image: url(resources/img3.gif);
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
+    background-position: 0% 100%;
+    background-position-x: 0%;
+    background-position-y: 100%;
+    background-color: transparent;
+    background-attachment: scroll;
+    opacity: 100;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #E8D6B4;
+    font-size: 3em;
+    text-shadow: transparent 0px 0px 5px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1;
+    text-align: left;
+    text-indent: 0;
+    border: 0px solid #000000;
+    margin: 0;
+    padding: 0px 0px 4px 0px;
+    letter-spacing: 0;
+}

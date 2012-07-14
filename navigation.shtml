@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <div class="nav-holder">
+    <div class="nav-box">
+      <a class="nav" href="index.html"> <span>Home</span>
+      </a>
+    </div>
+
+    <div class="nav-box">
+      <div class="menu" 
+        onmouseover="document.all.gallerySubMenu.style.display = 'block'" 
+        onmouseout="document.all.gallerySubMenu.style.display = 'none'">
+        <div class="menuHead"><a href="gallery.html">Gallery</a></div>
+        <div id="gallerySubMenu" class="subMenu">
+          <br />
+          <a href="photos.html">Photo Gallery</a><br /> 
+          <br />
+          <a href="videos.html">Videos</a><br /> 
+          <br /><br />
+        </div>
+      </div>    
+    </div>
+
+
+    <div class="nav-box">
+      <div class="menu" 
+        onmouseover="document.all.calendarSubMenu.style.display = 'block'" 
+        onmouseout="document.all.calendarSubMenu.style.display = 'none'">
+        <div class="menuHead"><a href="calendar.html">Calendar</a></div>
+        <div id="calendarSubMenu" class="subMenu">
+          <br />
+          <a href="anniversary.html">Anniversary Performance</a><br /> 
+          <br />
+          <a href="calendar.html">2012 Schedule</a><br /> 
+          <br /><br />
+        </div>
+      </div>    
+    </div>
+
+    <div class="nav-box">
+      <div class="menu" 
+        onmouseover="document.all.aboutSubMenu.style.display = 'block'" 
+        onmouseout="document.all.aboutSubMenu.style.display = 'none'">
+        <div class="menuHead"><a href="about-us.html">About Us</a></div>
+        <div id="aboutSubMenu" class="subMenu">
+          <br />
+          <a href="a-short-history.html">A Short History</a><br /> 
+          <br />
+          <a href="behind-our-name.html">Behind Our Name</a><br /> 
+          <br />
+          <a href="classes.html">Classes</a><br /> 
+          <br />
+          <a href="contact-us.html">Contact Us</a><br /> 
+          <br />
+          <a href="personal-stories.html">Personal Stories</a><br /> 
+          <br /><br />
+        </div>
+      </div>    
+    </div>
+      
+    </div>
+
+  </div>
+</html>  

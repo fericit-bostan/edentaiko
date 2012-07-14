@@ -1,0 +1,70 @@
+<div class="main-nav">
+
+  <div class="nav-holder">
+    <div class="nav-box">
+      <div class="menu" 
+        onmouseover="setSubMenuDisplayType('homeSubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('homeSubMenu', 'block')">
+        <div class="menuHead"><a href="index.shtml">Home</a></div>
+      </div>
+    </div>
+
+    <div class="nav-box">
+      <div class="menu" 
+        onmouseover="setSubMenuDisplayType('gallerySubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('gallerySubMenu', 'none')">
+        <div class="menuHead"><a href="gallery.shtml">Gallery</a></div>
+        <div id="gallerySubMenu" class="subMenu">
+          <br></br>
+          <a href="photos.shtml">Photo Gallery</a>
+          <br></br>
+          <a href="videos.shtml">Videos</a>
+          <br></br>
+          <br></br>
+        </div>
+      </div>    
+    </div>
+
+
+    <div class="nav-box">
+      <div class="menu" 
+        onmouseover="setSubMenuDisplayType('calendarSubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('calendarSubMenu', 'none')">
+        <div class="menuHead"><a href="calendar.shtml">Calendar</a></div>
+        <div id="calendarSubMenu" class="subMenu">
+          <br></br>
+          <a href="anniversary.shtml">Anniversary Performance</a>
+          <br></br>
+          <a href="calendar.shtml">2012 Schedule</a>
+          <br></br>
+          <br></br>
+        </div>
+      </div>    
+    </div>
+
+    <div class="nav-box">
+      <div class="menu" 
+        onmouseover="setSubMenuDisplayType('aboutSubMenu', 'block')" 
+        onmouseout="setSubMenuDisplayType('aboutSubMenu', 'none')">
+        <div class="menuHead"><a href="about-us.shtml">About Us</a></div>
+        <div id="aboutSubMenu" class="subMenu">
+          <br></br>
+          <a href="a-short-history.shtml">A Short History</a>
+          <br></br>
+          <a href="behind-our-name.shtml">Behind Our Name</a>
+          <br></br>
+          <a href="classes.shtml">Classes</a>
+          <br></br>
+          <a href="contact-us.shtml">Contact Us</a>
+          <br></br>
+          <a href="personal-stories.shtml">Personal Stories</a>
+          <br></br>
+          <a href="taiko-resources.shtml">Taiko Resources</a>
+          <br></br>
+          <br></br>
+        </div>
+      </div>    
+    </div>
+  </div>
+
+</div>  

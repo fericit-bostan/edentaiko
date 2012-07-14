@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!--#include virtual="include/meta.shtml" -->
+
+  <script language="JavaScript" src="js/master.js"  type="text/javascript">
+  </script>
+
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+  
+  <div class="header-4"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+        <h2>
+          <span>Behind Our Name</span>
+        </h2>
+
+        <div class="center-content-left-upper">
+          <div class="center-content-left-upper-text">
+            <p>
+              <span>
+              My home town is called 'Tome-City'. It is a small farming region about 2 hours North from Sendai which is the capital city of Miyagi Prefecture, Japan, 
+              and the largest city in the Tōhoku Region.
+              The city was founded in 1600 by the daimyo Date Masamune, an outstanding tactician and well known for his missing eye. 
+              Date was often called dokuganryū (独眼竜), or the "one-eyed dragon".
+              Sendai is well known by its nickname, the City of Trees (杜の都 Mori no Miyako). 
+              There was a castle constructed in Sendai atop Mount Aoba and is situated on a plateau overlooking the city of Sendai across the Hirose River. This plateau is joined to the backspine of northern Honshu, the Ōū Mountain Range on its western side, 
+              and is protected by deep forest to its west, and sheer cliffs on its southern and eastern sides.
+              The castle was named from this notion: the castle in the woods/trees/leaves.          
+              </span>
+            </p>
+            <br/>
+            <p>
+              <span>
+                Sendai was considered to be one of Japan's greenest cities, mostly because of its great numbers of trees and plants. 
+                Sendai became known as The City of Trees before World War II as the Sendai han encouraged residents to plant trees in their gardens.                   
+              </span>
+            </p>   
+            <br/>     
+            <p>
+                <span>Ao: green, ba: leaf. "Ao" symbolizes fresh and young and stable, just like our group... Our logo is a kanji "Ao" in the taiko.</span>
+            </p>
+          </div>
+        </div>
+      </div>     
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+    <!--#include virtual="include/copyright.shtml" -->  
+    <!--#include virtual="include/about-counter.shtml" -->  
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!--#include virtual="include/meta.shtml" -->
+
+  <script language="JavaScript" src="js/master.js" type="text/javascript">
+  </script>
+</head>
+
+<body>
+
+  <!--#include virtual="include/header.shtml" -->
+
+  <div class="header-4"></div>
+
+  <!--#include virtual="include/navigation.shtml" -->
+  
+  <div class="main-content">
+    <!--#include virtual="include/left-main-content.shtml" -->
+
+    <div class="center-content">
+
+      <div class="center-content-left">
+	      <h2>
+	        <span>Taiko Resources</span>
+	      </h2>
+
+        <div class="center-content-left-upper">
+            <div class="cal-row">
+              <div class="cal-cell">
+                  <a href="http://users.lmi.net/taikousa/TS_homepage.html" target="_blank">Tatsumaki Taiko</a>
+              </div>
+              <div class="cal-cell">
+                  <a href="http://etaiko.org/" target="_blank">Emeryville Taiko</a>
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  <a href="http://ensohza.org/index.html" target="_blank">Ensohza Minyoshu</a>
+              </div>
+              <div class="cal-cell">
+                  <a href="http://jundaiko.com/" target="_blank">Jun Daiko</a>
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  <a href=" http://mvbuddhisttemple.org/06j-taiko.html" target="_blank">Mountain View Buddhist Temple Taiko Group</a>
+              </div>
+              <div class="cal-cell">
+                  <a href=" http://wadaikonewark.org/Sue.html" target="_blank">Wadaiko, Newark</a>
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  <a href=" http://pabt.org/" target="_blank">Pala Alto Buddhist Temple Dharma Taiko</a>
+              </div>
+              <div class="cal-cell">
+                  <a href=" http://taiko.org/" target="_blank">San Jose Taiko</a>
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  <a href=" http://sandoshintaiko.com/" target="_blank">Sandoshin Taiko, Morgan Hill</a>
+              </div>
+              <div class="cal-cell">
+                  <a href=" http://www.sonomacountytaiko.org/" target="_blank">Sonoma County Taiko</a>
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  <a href="http://www.taikoren.com/Taiko_Ren.html" target="_blank">Taiko Ren</a>
+              </div>
+              <div class="cal-cell">
+                  <a href="http://www.watsonvilletaiko.org/about.html" target="_blank">Watsonville Taiko</a>
+              </div>
+            </div>
+            <div class="cal-row">
+              <div class="cal-cell">
+                  <a href="http://members2.jcom.home.ne.jp/t45949/" target="_blank">Kamo Tsunamura Taiko, Sendai</a>
+              </div>
+              <div class="cal-cell">
+                  <a href="http://kaguraokadaiko.web.fc2.com/" target="_blank">Kaguraoka Taiko Hozon Kai, Asahikawa</a>
+              </div>
+            </div>
+        </div>
+      </div>     
+      
+    </div>
+
+    <!--#include virtual="include/right-main-content.shtml" -->
+  </div>
+    <!--#include virtual="include/copyright.shtml" -->  
+    <!--#include virtual="include/about-counter.shtml" -->  
+</body>
+</html>
